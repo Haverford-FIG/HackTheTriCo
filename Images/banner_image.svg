@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="480px" height="163px" viewBox="0 0 480 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-477.000000, -341.000000)">
+            <g id="Landing-Banner" sketch:type="MSLayerGroup">
+                <g id="Banner" transform="translate(444.000000, 341.000000)">
+                    <g id="Logo" transform="translate(33.000000, 0.000000)">
+                        <g sketch:type="MSShapeGroup">
+                            <g id="Lines" transform="translate(64.000000, 50.000000)" stroke="#7C7C7C" stroke-width="5" stroke-linecap="square">
+                                <path d="M5.5,8.5 L24.5,0.5" id="Line"></path>
+                                <path d="M0.5,45.5 L14.5,55.5" id="Line"></path>
+                                <path d="M53.5,21.5 L50.5,41.5" id="Line"></path>
+                            </g>
+                            <g id="Circles">
+                                <path d="M122,72 C141.882251,72 158,55.882251 158,36 C158,16.117749 141.882251,0 122,0 C102.117749,0 86,16.117749 86,36 C86,55.882251 102.117749,72 122,72 Z" id="Oval-1" fill="#E53935"></path>
+                                <circle id="Oval-1" fill="#B71C1C" cx="108" cy="127" r="36"></circle>
+                                <circle id="Oval-1" fill="#673AB7" cx="36" cy="72" r="36"></circle>
+                            </g>
+                        </g>
+                        <g id="Text" transform="translate(189.000000, 3.000000)" sketch:type="MSTextLayer" font-weight="normal">
+                            <text id="HACK-THE" font-family="Avenir Next" font-size="60" fill="#2F2F2F">
+                                <tspan x="0" y="60">HACK THE</tspan>
+                            </text>
+                            <text id="TRICO" font-family="Rockwell" font-size="97" fill="#303030">
+                                <tspan x="0" y="138">TRICO</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
