@@ -17,14 +17,15 @@ body {
     font-family: Lato, sans-serif;
     font-size: 36px;
     color: #000000;
-    line-height: 14px;
+    line-height: 42px;
     font-weight: 300;
+    text-align: center;
 }
 
 .faq_background {
     display: flex;
     background-color: #F0F0F0;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,7 +33,7 @@ body {
 }
 
 .faq_title {
-    padding-top: 30px;
+    padding-top: 70px;
     /* Title: */
     font-family: Lato, sans-serif;
     font-size: 50px;
@@ -48,6 +49,7 @@ body {
 .faq_question_answer {
     width: 400px;
     padding-bottom: 30px;
+    padding-left: 50px;
 }
 
 
