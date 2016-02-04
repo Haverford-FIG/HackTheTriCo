@@ -50,8 +50,7 @@ body {
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 0
-    margin-bottom: 30px;
-    
+    padding-bottom: 30px;
 }
 
 
