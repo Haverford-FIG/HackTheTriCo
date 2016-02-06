@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="480px" height="163px" viewBox="0 0 480 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="457px" height="151px" viewBox="0 0 457 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
     <title>Logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-477.000000, -341.000000)">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-482.000000, -347.000000)">
             <g id="Landing-Banner" sketch:type="MSLayerGroup">
-                <g id="Banner" transform="translate(444.000000, 341.000000)">
-                    <g id="Logo" transform="translate(33.000000, 0.000000)">
-                        <g sketch:type="MSShapeGroup">
-                            <g id="Lines" transform="translate(64.000000, 50.000000)" stroke="#7C7C7C" stroke-width="5" stroke-linecap="square">
-                                <path d="M5.5,8.5 L24.5,0.5" id="Line"></path>
-                                <path d="M0.5,45.5 L14.5,55.5" id="Line"></path>
-                                <path d="M53.5,21.5 L50.5,41.5" id="Line"></path>
+                <g id="Banner" transform="translate(444.000000, 343.000000)">
+                    <g id="Logo" transform="translate(39.000000, 0.000000)">
+                        <g transform="translate(0.000000, 5.000000)" sketch:type="MSShapeGroup">
+                            <g id="Lines" transform="translate(52.544304, 38.092025)" stroke="#7C7C7C" stroke-width="5.23177768" stroke-linecap="square">
+                                <path d="M1.95569619,20.7395273 L46.35867,0.66514916" id="Line"></path>
+                                <path d="M0.955696225,41.0838184 L23.9556961,59.490558" id="Line"></path>
+                                <path d="M58.955696,15.4079755 L51.9556962,64.3344358" id="Line"></path>
                             </g>
-                            <g id="Circles">
-                                <path d="M122,72 C141.882251,72 158,55.882251 158,36 C158,16.117749 141.882251,0 122,0 C102.117749,0 86,16.117749 86,36 C86,55.882251 102.117749,72 122,72 Z" id="Oval-1" fill="#E53935"></path>
-                                <circle id="Oval-1" fill="#B71C1C" cx="108" cy="127" r="36"></circle>
-                                <circle id="Oval-1" fill="#673AB7" cx="36" cy="72" r="36"></circle>
+                            <g id="Circles" stroke="#DFF0EE" stroke-width="2">
+                                <path d="M114.506329,64.9325153 C133.004373,64.9325153 148,50.3968767 148,32.4662577 C148,14.5356387 133.004373,0 114.506329,0 C96.0082855,0 81.0126582,14.5356387 81.0126582,32.4662577 C81.0126582,50.3968767 96.0082855,64.9325153 114.506329,64.9325153 Z" id="Oval-1" fill="#E53935"></path>
+                                <path d="M102.481013,149 C120.979056,149 135.974684,134.464361 135.974684,116.533742 C135.974684,98.6031233 120.979056,84.0674847 102.481013,84.0674847 C83.982969,84.0674847 68.9873418,98.6031233 68.9873418,116.533742 C68.9873418,134.464361 83.982969,149 102.481013,149 Z" id="Oval-1" fill="#B71C1C"></path>
+                                <ellipse id="Oval-1" fill="#673AB7" cx="33.4936709" cy="64.9325153" rx="33.4936709" ry="32.4662577"></ellipse>
                             </g>
                         </g>
-                        <g id="Text" transform="translate(189.000000, 3.000000)" sketch:type="MSTextLayer" font-weight="normal">
+                        <g id="Text" transform="translate(168.000000, 0.000000)" sketch:type="MSTextLayer" font-weight="normal">
                             <text id="HACK-THE" font-family="Avenir Next" font-size="60" fill="#2F2F2F">
                                 <tspan x="0" y="60">HACK THE</tspan>
                             </text>
-                            <text id="TRICO" font-family="Rockwell" font-size="97" fill="#303030">
-                                <tspan x="0" y="138">TRICO</tspan>
+                            <text id="TRICO" font-family="Rockwell" font-size="94.5" fill="#303030">
+                                <tspan x="4" y="135">TRICO</tspan>
                             </text>
                         </g>
                     </g>
