@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-button {
+a.button {
   display: inline-block;
   padding: 0 20px;
   margin-top: 40px;
@@ -17,9 +17,10 @@ button {
   color: #EEEEEE;
   letter-spacing: -1.07;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-button:focus {
+a.button:focus {
   outline: none
 }
 
