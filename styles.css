@@ -12,6 +12,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.banner_image {
+    width: auto\9;
+}
+
 .banner_text {
     /* Come hack with stude: */
     padding-top: 20px;
@@ -56,14 +60,23 @@ body {
 }
 
 .faq_background {
-    display: flex;
     background-color: #F0F0F0;
-    justify-content: space-around;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.faq_question_answer_container {
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
+    margin: 0 auto;
 }
+
+
 
 .faq_title {
     padding-top: 70px;
@@ -82,25 +95,24 @@ body {
 .faq_question_answer {
     width: 400px;
     padding-bottom: 30px;
-    padding-left: 50px;
 }
 
 
 .faq_question {
+    max-width: 90%;
     font-family: Lato, sans-serif;
     font-size: 24px;
     color: #1E1E1E;
     font-weight: 400;
     line-height: 32px;
-    width: 90%;
 }
 
 .faq_answer{
+    max-width: 80%;
     font-family: Lato, sans-serif;
     font-size: 16px;
     color: #1E1E1E;
     line-height: 18px;
-    width: 90%;
     font-weight: 300;
 }
 
