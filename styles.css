@@ -51,7 +51,7 @@ a.button:focus {
 }
 
 .about_text a {
-    color: #000000;
+    color: #F7F7F-7;
     text-decoration: none;
     border-bottom: 2px solid #F7F7F7;
 }
@@ -89,6 +89,8 @@ a.button:focus {
     text-align: center;
     padding-bottom: 40px;
 }
+
+
 
 .faq_background {
     background-color: #F0F0F0;
@@ -156,4 +158,30 @@ a.button:focus {
 
 .footer a {
     color: black;
+}
+
+.sponsor_background {
+
+}
+
+.sponsor_title {
+    /* SPONSORS: */
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+.sponsor_add_new_button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sponsor_caption {
+    text-align: center;
+}
+
+.sponsor_caption a {
+    color: #1E1E1E;
 }
