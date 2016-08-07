@@ -96,6 +96,7 @@ a.button:focus {
   background-color: #F0F0F0;
   margin: 0 auto;
   align-content: center;
+  padding: 90px;
 }
 
 .faq_question_answer_container {
@@ -112,7 +113,6 @@ a.button:focus {
 
 .faq_title {
   font-family: "montserrat", sans-serif;
-  padding-top: 70px;
   /* Title: */
   font-size: 5em;
   color: #1E1E1E;
