@@ -63,7 +63,7 @@ a.button:focus {
   color: #F7F7F7;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   padding-bottom: 30px;
