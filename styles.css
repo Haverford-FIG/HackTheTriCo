@@ -1,6 +1,11 @@
+/*! 
+ * Hack the TriCo 2016
+ */
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  padding-top: 50px;
 }
 
 a.button {
@@ -48,6 +53,75 @@ a.button:focus {
   text-align: center;
 }
 
+/* NAVIGATION BAR */
+.navbar {
+  background-color: #ff5e5b;
+  max-width: 100%;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 15px 15px 15px;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e8eef2;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline;
+  float: right;
+}
+
+.navbar ul li a {
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.navbar ul li a:hover {
+  color: #363636;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+/* ABOUT */
 .about_text a {
   color: #F7F7F7;
   text-decoration: none;
@@ -91,7 +165,7 @@ a.button:focus {
 }
 
 
-
+/* FAQ */
 .faq_background {
   background-color: #F0F0F0;
   margin: 0 auto;
@@ -158,6 +232,7 @@ a.button:focus {
   color: black;
 }
 
+/* SPONSORS */
 .sponsor_background {
 
 }
