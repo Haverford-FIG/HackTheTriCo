@@ -1,6 +1,6 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
 a.button {
@@ -25,132 +25,136 @@ a.button:focus {
 }
 
 .banner_background{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F6F6F6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
 }
 
 .banner_image {
-    width: auto\9;
+  width: auto\9;
 }
 
 .banner_text {
-    /* Come hack with stude: */
-    padding-top: 20px;
-    font-size: 36px;
-    color: #000000;
-    line-height: 42px;
-    font-weight: 300;
-    max-width: 600px;
-    text-align: center;
+  /* Come hack with stude: */
+  padding-top: 20px;
+  font-size: 36px;
+  color: #000000;
+  line-height: 42px;
+  font-weight: 300;
+  max-width: 600px;
+  text-align: center;
 }
 
 .about_text a {
-    color: #F7F7F7;
-    text-decoration: none;
-    border-bottom: 2px solid #F7F7F7;
+  color: #F7F7F7;
+  text-decoration: none;
+  border-bottom: 2px solid #F7F7F7;
 }
 
 .about_text a:visited {
-    color: #F7F7F7;
+  color: #F7F7F7;
 }
 
 .about_background {
-    background-color: #00CECB;
-    color: #F7F7F7;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 30px;
+  background-color: #00CECB;
+  color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .about_title {
-    padding-top: 70px;
-    font-size: 50px;
-    font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 70px;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 1em;
+  max-width: 800px;
+
 }
 
 .about_text {
-    padding-top: 40px;
-    font-size: 24px;
-    font-weight: 300;
-    max-width: 800px;
-    font-weight: 300;
-    flex: 1;
-    text-align: center;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 800px;
+  font-weight: 300;
+  flex: 1;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 
 
 .faq_background {
-    background-color: #F0F0F0;
-    margin: 0 auto;
-    align-content: center;
+  background-color: #F0F0F0;
+  margin: 0 auto;
+  align-content: center;
 }
 
 .faq_question_answer_container {
-    display: flex;
-    max-width: 80%;
-    
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: 0 auto;
+  display: flex;
+  max-width: 80%;
+  
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto;
 }
 
 
 
 .faq_title {
-    padding-top: 70px;
-    /* Title: */
-    font-size: 50px;
-    color: #1E1E1E;
-    line-height: 14px;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 30px;
-    font-weight: 300;
-    line-height: 55px;
+  padding-top: 70px;
+  /* Title: */
+  font-size: 5em;
+  color: #1E1E1E;
+  line-height: 14px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 700;
+  line-height: 55px;
 }
 
 .faq_question_answer {
-    width: 400px;
-    padding-bottom: 30px;
+  width: 400px;
+  padding-bottom: 30px;
 }
 
 
 .faq_question {
-    max-width: 90%;
-    font-size: 24px;
-    color: #1E1E1E;
-    font-weight: 400;
-    line-height: 32px;
+  max-width: 90%;
+  font-size: 24px;
+  color: #1E1E1E;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .faq_answer{
-    max-width: 80%;
-    font-size: 16px;
-    color: #1E1E1E;
-    line-height: 18px;
-    font-weight: 300;
+  max-width: 80%;
+  font-size: 16px;
+  color: #1E1E1E;
+  line-height: 18px;
+  font-weight: 300;
 }
 
 .footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .footer a {
-    color: black;
+  color: black;
 }
 
 .sponsor_background {
@@ -158,23 +162,23 @@ a.button:focus {
 }
 
 .sponsor_title {
-    /* SPONSORS: */
-    font-weight: 300;
-    margin-top: 40px;
-    font-size: 50px;
-    color: #1E1E1E;
-    text-align: center;
+  /* SPONSORS: */
+  font-weight: 300;
+  margin-top: 40px;
+  font-size: 50px;
+  color: #1E1E1E;
+  text-align: center;
 }
 
 .sponsor_add_new_button {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .sponsor_caption {
-    text-align: center;
+  text-align: center;
 }
 
 .sponsor_caption a {
-    color: #1E1E1E;
+  color: #1E1E1E;
 }
