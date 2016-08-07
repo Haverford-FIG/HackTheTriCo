@@ -113,6 +113,7 @@ a.button:focus {
 
 
 .faq_title {
+  font-family: "montserrat", sans-serif;
   padding-top: 70px;
   /* Title: */
   font-size: 5em;
@@ -162,10 +163,11 @@ a.button:focus {
 }
 
 .sponsor_title {
+  font-family: "montserrat", sans-serif;
   /* SPONSORS: */
-  font-weight: 300;
+  font-weight: 700;
   margin-top: 40px;
-  font-size: 50px;
+  font-size: 5em;
   color: #1E1E1E;
   text-align: center;
 }
