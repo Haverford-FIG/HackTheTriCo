@@ -1,4 +1,4 @@
-/*! 
+/*!
  * Hack the TriCo 2016
  */
 
@@ -8,19 +8,19 @@ body {
 }
 
 a.button {
-  display: inline-block;
-  padding: 0 20px;
-  margin-top: 40px;
-  font-size: 24px;
-  line-height: 1.8;
   appearance: none;
-  box-shadow: none;
-  border: solid 2px #00CECB;
   background: #00CECB;
-  font-weight: 300;
-  color: #EEEEEE;
-  letter-spacing: -1.07;
   border-radius: 5px;
+  border: solid 2px #00CECB;
+  box-shadow: none;
+  color: #EEEEEE;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -1.07;
+  line-height: 1.8;
+  margin-top: 40px;
+  padding: 0 20px;
   text-decoration: none;
 }
 
@@ -29,12 +29,12 @@ a.button:focus {
 }
 
 .banner_background{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
   background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
 }
 
 .banner_image {
@@ -43,20 +43,20 @@ a.button:focus {
 
 .banner_text {
   /* Come hack with stude: */
-  padding-top: 20px;
-  font-size: 36px;
   color: #000000;
-  line-height: 42px;
+  font-size: 36px;
   font-weight: 300;
+  line-height: 42px;
   max-width: 600px;
+  padding-top: 20px;
   text-align: center;
 }
 
 /* ABOUT */
 .about_text a {
+  border-bottom: 2px solid #F7F7F7;
   color: #F7F7F7;
   text-decoration: none;
-  border-bottom: 2px solid #F7F7F7;
 }
 
 .about_text a:visited {
@@ -64,57 +64,51 @@ a.button:focus {
 }
 
 .about_background {
+  align-items: center;
   background-color: #00CECB;
   color: #F7F7F7;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  
+  justify-content: center;
+  padding: 90px;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .about_title {
   font-family: "Montserrat", sans-serif;
-  padding-top: 70px;
   font-size: 5em;
-  text-align: center;
   font-weight: 700;
   line-height: 1em;
   max-width: 800px;
-
+  text-align: center;
 }
 
 .about_text {
-  padding-top: 40px;
+  flex: 1;
   font-size: 24px;
   font-weight: 300;
   max-width: 800px;
-  font-weight: 300;
-  flex: 1;
+  margin-top: 40px;
   text-align: justify;
-  padding-bottom: 40px;
 }
 
 /* Schedule */
 .schedule_background {
+  align-content: center;
   background-color: #FF5E5B;
   color: #F7F7F7;
   margin: 0 auto;
-  align-content: center;
   padding: 90px;
   text-align: center;
 }
 
 .schedule_title {
   font-family: "Montserrat", sans-serif;
-  padding-top: 70px;
   font-size: 5em;
   font-weight: 700;
   line-height: 1em;
+  padding-top: 70px;
   text-align: center;
-
 }
 
 .schedule_text {
@@ -123,62 +117,59 @@ a.button:focus {
 
 /* FAQ */
 .faq_background {
+  align-items: center;
   background-color: #F0F0F0;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
   padding: 90px;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  
   text-align: center;
 }
 
 .faq_question_answer_container {
-  display: flex;
-  justify-content: center;
+  align-content: center;
   align-items: flex-start;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
 
 
 .faq_title {
-  font-family: "montserrat", sans-serif;
-  /* Title: */
-  font-size: 5em;
   color: #1E1E1E;
-  line-height: 14px;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 30px;
+  font-family: "montserrat", sans-serif;
+  font-size: 5em;
   font-weight: 700;
   line-height: 55px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
 }
 
 .faq_question_answer {
-  width: 400px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 30px;
   text-align: justify;
+  width: 400px;
 }
 
 .faq_question {
-  font-size: 24px;
   color: #1E1E1E;
+  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
 }
 
 .faq_answer{
-  font-size: 16px;
   color: #1E1E1E;
-  line-height: 18px;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 18px;
 }
 
 .faq_answer a {
@@ -186,8 +177,7 @@ a.button:focus {
 }
 
 .footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -197,16 +187,14 @@ a.button:focus {
 
 /* SPONSORS */
 .sponsor_background {
-
+  padding-top: 90px;
 }
 
 .sponsor_title {
-  font-family: "montserrat", sans-serif;
-  /* SPONSORS: */
-  font-weight: 700;
-  margin-top: 40px;
-  font-size: 5em;
   color: #1E1E1E;
+  font-family: "montserrat", sans-serif;
+  font-size: 5em;
+  font-weight: 700;
   text-align: center;
 }
 
