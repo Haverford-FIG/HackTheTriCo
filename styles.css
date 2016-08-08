@@ -52,9 +52,6 @@ a.button:focus {
   text-align: center;
 }
 
-
-
-
 /* ABOUT */
 .about_text a {
   color: #F7F7F7;
@@ -73,6 +70,7 @@ a.button:focus {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
   text-align: center;
   padding-bottom: 30px;
 }
@@ -81,6 +79,7 @@ a.button:focus {
   font-family: "Montserrat", sans-serif;
   padding-top: 70px;
   font-size: 5em;
+  text-align: center;
   font-weight: 700;
   line-height: 1em;
   max-width: 800px;
@@ -98,13 +97,40 @@ a.button:focus {
   padding-bottom: 40px;
 }
 
+/* Schedule */
+.schedule_background {
+  background-color: #FF5E5B;
+  color: #F7F7F7;
+  margin: 0 auto;
+  align-content: center;
+  padding: 90px;
+  text-align: center;
+}
+
+.schedule_title {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 70px;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+
+}
+
+.schedule_text {
+  text-align: center;
+}
 
 /* FAQ */
 .faq_background {
   background-color: #F0F0F0;
   margin: 0 auto;
-  align-content: center;
   padding: 90px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  text-align: center;
 }
 
 .faq_question_answer_container {
@@ -140,7 +166,6 @@ a.button:focus {
   text-align: justify;
 }
 
-
 .faq_question {
   font-size: 24px;
   color: #1E1E1E;
@@ -154,6 +179,10 @@ a.button:focus {
   color: #1E1E1E;
   line-height: 18px;
   font-weight: 300;
+}
+
+.faq_answer a {
+  color: #1E1E1E;
 }
 
 .footer {
