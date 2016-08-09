@@ -38,6 +38,8 @@ li a:hover {
 @media screen and (max-width: 500px){
   li {
   display: block;
+  float: center;
+  width: 100%;
   }
 }
 
