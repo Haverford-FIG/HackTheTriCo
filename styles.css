@@ -290,6 +290,8 @@ a.button:focus {
 
   .banner_image {
   max-width: 50%;
+  align-items: center;
+  
   }
 }
 
