@@ -34,8 +34,11 @@ li a:hover {
   background-color: #F78284;
 }
 
-@media screen and (max-width: 600px){
-  li {float: none;}
+/* for mobile */
+@media only screen and (min-width: 768px){
+  li {
+  display: block;
+  }
 }
 
 body {
