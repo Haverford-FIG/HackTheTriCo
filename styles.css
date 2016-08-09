@@ -2,6 +2,7 @@
  * Hack the TriCo 2016
  */
 
+
 /* NAVIGATION*/
 ul {
   top: 0;
@@ -11,6 +12,7 @@ ul {
   background-color: #363636;
   text-align: center;
   display: inline-block;
+  position: fixed;
 }
 
 li {
@@ -77,6 +79,8 @@ a.button:focus {
   padding-top: 20px;
   text-align: center;
 }
+
+
 
 /* ABOUT */
 .about_text a {
@@ -202,6 +206,10 @@ a.button:focus {
   color: #1E1E1E;
 }
 
+.faq_answer a:hover {
+  color:#FF5E5B;
+}
+
 .footer {
   padding: 10px 0;
   text-align: center;
@@ -235,4 +243,14 @@ a.button:focus {
 
 .sponsor_caption a {
   color: #1E1E1E;
+}
+
+.sponsor_caption a:hover {
+  color:#FF5E5B;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 30px;
+  background-color: #00CECB;
 }
