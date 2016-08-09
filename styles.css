@@ -4,30 +4,28 @@
 
 /* NAVIGATION*/
 ul {
-  list-style-type: none;
-  position: fixed;
   top: 0;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1.5%;
   background-color: #363636;
+  text-align: center;
+  display: inline-block;
 }
 
 li {
-  float: left;
+  display: inline;
+  padding: 5%;
 }
 
 li a {
-  display: block;
-  background-color: #363636;
   color: #F6F6F6;
-  padding: 14px 102px;
-  text-align: center;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: #F78284;
+  padding: 1.5% 2%;
 }
 
 body {
