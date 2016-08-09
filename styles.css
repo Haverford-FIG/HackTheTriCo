@@ -39,10 +39,6 @@ li a:hover {
   li {
   display: block;
   }
-
-  li a{
-  width: 100%;
-  }
 }
 
 body {
