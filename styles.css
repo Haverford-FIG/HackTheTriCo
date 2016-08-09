@@ -255,44 +255,12 @@ a.button:focus {
 
 /* for mobile */
 @media screen and (max-width : 480px){
-  header {
-  position: relative;
-  max-width: 100%;
-  }
-
-  body {
-  position: relative;
-  }
-
-  ul {
-  list-style-type: none;
-  width: 100%;
-  background-color: #363636;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  }
-
   li {
   display: block;
-  float: center;
   }
 
   li a {
-  display: inline-block;
-  color: #F6F6F6;
-  text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
   width: 100%;
-  }
-
-  .banner_image {
-  max-width: auto\10;
-  align-items: center;
-  
   }
 }
 
