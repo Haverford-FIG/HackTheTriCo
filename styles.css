@@ -69,7 +69,7 @@ a.button:focus {
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
-  height: 115vh;
+  height: 125vh;
   justify-content: center;
 }
 
