@@ -289,7 +289,7 @@ a.button:focus {
   }
 
   .banner_image {
-  width: 50%;
+  max-width: 100%;
   }
 }
 
