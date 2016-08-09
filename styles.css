@@ -36,9 +36,15 @@ li a:hover {
 
 /* for mobile */
 @media screen and (max-width: 500px){
+  ul {
+  position: static;
+  }
+
   li {
   display: block;
-  float: center;
+  }
+
+  ul li, li a{
   width: 100%;
   }
 }
