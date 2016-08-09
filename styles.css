@@ -4,30 +4,38 @@
 
 
 /* NAVIGATION*/
+
 ul {
-  top: 0;
+  list-style-type: none;
   width: 100%;
-  margin: 0;
-  padding: 1.5%;
   background-color: #363636;
-  text-align: center;
-  display: inline-block;
+  margin: 0;
+  padding: 0;
   position: fixed;
+  text-align: center;
+  overflow: hidden;
 }
 
 li {
   display: inline;
-  padding: 5%;
+  float: center;
 }
 
 li a {
+  display: inline-block;
   color: #F6F6F6;
   text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 18%;
 }
 
 li a:hover {
   background-color: #F78284;
-  padding: 1.5% 2%;
+}
+
+@media screen and (max-width: 600px){
+  li {float: none;}
 }
 
 body {
@@ -61,7 +69,7 @@ a.button:focus {
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 115vh;
   justify-content: center;
 }
 
