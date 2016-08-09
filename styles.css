@@ -35,20 +35,7 @@ li a:hover {
 }
 
 /* for mobile */
-@media screen and (max-width : 500px){
-  li {
-  display: block;
-  float: center;
-  }
-
-  li a {
-  display: inline-block;
-  color: #F6F6F6;
-  text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
-  }
+@media screen and (max-width : 480px){
 }
 
 body {
