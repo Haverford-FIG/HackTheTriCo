@@ -255,6 +255,10 @@ a.button:focus {
 
 /* for mobile */
 @media screen and (max-width : 480px){
+  ul {
+  width: 100%;
+  }
+
   li {
   display: block;
   }
