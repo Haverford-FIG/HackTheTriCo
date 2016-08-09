@@ -40,6 +40,15 @@ li a:hover {
   display: block;
   float: center;
   }
+
+  li a {
+  display: inline-block;
+  color: #F6F6F6;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  }
 }
 
 body {
