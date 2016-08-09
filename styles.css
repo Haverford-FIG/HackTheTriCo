@@ -257,6 +257,7 @@ a.button:focus {
 @media screen and (max-width : 480px){
   header {
   position: relative;
+  max-width: 100%;
   }
 
   body {
@@ -289,7 +290,7 @@ a.button:focus {
   }
 
   .banner_image {
-  max-width: auto/40;
+  max-width: auto\10;
   align-items: center;
   
   }
