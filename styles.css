@@ -34,6 +34,13 @@ li a:hover {
   background-color: #F78284;
 }
 
+/* for mobile */
+@media screen and (max-width : 480px){
+  header {
+  position: absolute;
+  }
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
