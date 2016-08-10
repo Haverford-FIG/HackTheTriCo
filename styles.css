@@ -69,10 +69,6 @@ a.button:focus {
   justify-content: center;
 }
 
-.banner_image {
-  width: 11vw;
-}
-
 .banner_text {
   /* Come hack with stude: */
   color: #000000;
