@@ -269,6 +269,14 @@ a.button:focus {
   li a {
   width: 100%;
   }
+
+  .faq_question_answer {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  width: 100%;
+}
 }
 
 /* FOOTER */
