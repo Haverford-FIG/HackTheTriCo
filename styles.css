@@ -272,6 +272,8 @@ a.button:focus {
 
   .faq_question_answer {
   width: 60vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   }
 }
 
