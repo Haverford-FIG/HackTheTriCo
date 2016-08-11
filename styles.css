@@ -280,6 +280,32 @@ a.button:focus {
   }
 }
 
+/* for mobile */
+@media screen and (max-width : 480px)  {
+  header {
+  position: relative;
+  width: auto;
+  }
+
+  body {
+  position: relative;
+  width: auto;
+  }  
+
+  ul {
+  width: 100%;
+  position: relative;
+  }
+
+  li {
+  display: block;
+  }
+
+  li a {
+  width: 100%;
+  }
+}
+
 /* FOOTER */
 .footer {
   margin-top: 30px;
