@@ -127,7 +127,8 @@ a.button:focus {
   color: #F7F7F7;
   justify-content: center;
   margin: 0 auto;
-  padding: 90px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
 }
 
@@ -142,6 +143,7 @@ a.button:focus {
    font-size: 24px;
    font-weight: 300;
    margin-top: 40px;
+   max-width: 800px;
 }
 
 /* FAQ */
@@ -246,6 +248,7 @@ a.button:focus {
   color:#FF5E5B;
 }
 
+
 /* smaller screen */
 @media screen and (max-width : 730px) {
   .about_title {
@@ -270,6 +273,7 @@ a.button:focus {
 
 .faq_question_answer {
   width: 90%;
+  padding: 20px;
   }
 
 .faq_question {
@@ -283,16 +287,6 @@ a.button:focus {
 
 /* for mobile */
 @media screen and (max-width : 480px)  {
-  header {
-  position: relative;
-  width: auto;
-  }
-
-  body {
-  position: relative;
-  width: auto;
-  }  
-
   ul {
   width: 100%;
   position: relative;
@@ -306,14 +300,12 @@ a.button:focus {
   width: 100%;
   }
 
-  .about_title {
+.about_title {
   font-size: 3em;
   }
 
 .schedule_title {
   font-size: 3em;
-  text-align: center;
-  width: 100%
   }
 
 .faq_title {
@@ -325,17 +317,26 @@ a.button:focus {
   }
 
 .about_text {
-  font-size: 20px;
+  font-size: 18px;
   }
 
+.faq_question {
+  font-size: 18px;
+  }
+
+.faq_answer {
+  font-size: 16px;
+  }
+  
 .faq_question_answer {
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: justify;
   width: 100%;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   }
 }
+
 
 /* FOOTER */
 .footer {
