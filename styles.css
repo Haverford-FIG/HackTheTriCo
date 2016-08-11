@@ -305,6 +305,31 @@ a.button:focus {
   li a {
   width: 100%;
   }
+
+  .about_title {
+  font-size: 3em;
+  }
+
+.schedule_title {
+  font-size: 3em;
+  text-align: center;
+  }
+
+.faq_title {
+  font-size: 4em;
+  }  
+
+.sponsor_title {
+  font-size: 3em;
+  }
+
+.about_text {
+  font-size: 20px;
+  }
+
+.faq_question_answer {
+  width: 100;
+  }
 }
 
 /* FOOTER */
