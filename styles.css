@@ -262,26 +262,23 @@ a.button:focus {
 .sponsor_title {
   font-size: 4em;
   }
+
+.about_text {
+  font-size: 20px;
   }
 
-/* for mobile */
-@media screen and (max-width : 480px)  {
-.about_title {
-  font-size: 2em;
+.faq_question_answer {
+  width: 80%;
   }
 
-.schedule_title {
-  font-size: 3em;
+.faq_question {
+  font-size: 20px;
   }
 
-.faq_title {
-  font-size: 3em;
-  }  
-
-.sponsor_title {
-  font-size: 3em;
+.faq_answer {
+  font-size: 18px;
   }
-  }
+}
 
 /* FOOTER */
 .footer {
