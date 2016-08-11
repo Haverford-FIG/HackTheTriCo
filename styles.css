@@ -104,7 +104,7 @@ a.button:focus {
 
 .about_title {
   font-family: "Montserrat", sans-serif;
-  font-size: 9vw;
+  font-size: 6vw;
   font-weight: 700;
   line-height: 1em;
   max-width: 800px;
@@ -132,7 +132,7 @@ a.button:focus {
 
 .schedule_title {
   font-family: "Montserrat", sans-serif;
-  font-size: 11vw;
+  font-size: 7vw;
   font-weight: 700;
   line-height: 1em;
   padding-top: 70px;
@@ -167,7 +167,7 @@ a.button:focus {
 .faq_title {
   color: #1E1E1E;
   font-family: "montserrat", sans-serif;
-  font-size: 11vw;
+  font-size: 7vw;
   font-weight: 700;
   line-height: 55px;
   padding-bottom: 30px;
@@ -223,7 +223,7 @@ a.button:focus {
 .sponsor_title {
   color: #1E1E1E;
   font-family: "montserrat", sans-serif;
-  font-size: 11vw;
+  font-size: 7vw;
   font-weight: 700;
   text-align: center;
 }
