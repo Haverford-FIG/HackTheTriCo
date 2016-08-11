@@ -143,10 +143,8 @@ a.button:focus {
 }
 
 .schedule_text {
-   flex: 1;
    font-size: 24px;
    font-weight: 300;
-   max-width: 800px;
    margin-top: 40px;
    text-align: center;
 }
