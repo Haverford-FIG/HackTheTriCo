@@ -245,37 +245,43 @@ a.button:focus {
   color:#FF5E5B;
 }
 
-/* for mobile */
-@media screen and (max-width : 480px){
-  header {
-  position: relative;
-  width: auto;
+/* smaller screen */
+@media screen and (max-width : 730px) {
+  .about_title {
+  font-size: 3em;
   }
 
-  body {
-  position: relative;
-  width: auto;
+.schedule_title {
+  font-size: 4em;
+  }
+
+.faq_title {
+  font-size: 4em;
   }  
 
-  ul {
-  width: 100%;
-  position: relative;
+.sponsor_title {
+  font-size: 4em;
+  }
   }
 
-  li {
-  display: block;
+/* for mobile */
+@media screen and (max-width : 480px)  {
+.about_title {
+  font-size: 2em;
   }
 
-  li a {
-  width: 100%;
+.schedule_title {
+  font-size: 3em;
   }
 
-  .faq_question_answer {
-  width: 60vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+.faq_title {
+  font-size: 3em;
+  }  
+
+.sponsor_title {
+  font-size: 3em;
   }
-}
+  }
 
 /* FOOTER */
 .footer {
