@@ -96,7 +96,7 @@ a.button:focus {
   background-color: #00CECB;
   color: #F7F7F7;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   justify-content: center;
   padding: 90px;
   text-align: center;
@@ -128,6 +128,7 @@ a.button:focus {
   margin: 0 auto;
   padding: 90px;
   text-align: center;
+  flex-direction: column;  
 }
 
 .schedule_title {
@@ -136,7 +137,6 @@ a.button:focus {
   font-weight: 700;
   line-height: 1em;
   padding-top: 70px;
-  max-width: 800px;
   text-align: center;
 }
 
@@ -269,7 +269,7 @@ a.button:focus {
   }
 
 .faq_question_answer {
-  width: 80%;
+  width: 90%;
   }
 
 .faq_question {
@@ -313,6 +313,7 @@ a.button:focus {
 .schedule_title {
   font-size: 3em;
   text-align: center;
+  width: 100%
   }
 
 .faq_title {
@@ -328,7 +329,11 @@ a.button:focus {
   }
 
 .faq_question_answer {
-  width: 100;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  width: 100%;
   }
 }
 
