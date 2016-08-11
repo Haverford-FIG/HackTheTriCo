@@ -125,6 +125,8 @@ a.button:focus {
   align-content: center;
   background-color: #FF5E5B;
   color: #F7F7F7;
+  display: flex;  
+  justify-content: center;
   margin: 0 auto;
   padding: 90px;
   text-align: center;
@@ -141,7 +143,12 @@ a.button:focus {
 }
 
 .schedule_text {
-  text-align: center;
+   flex: 1;
+   font-size: 24px;
+   font-weight: 300;
+   max-width: 800px;
+   margin-top: 40px;
+   text-align: justify;
 }
 
 /* FAQ */
