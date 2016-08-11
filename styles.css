@@ -136,6 +136,7 @@ a.button:focus {
   font-weight: 700;
   line-height: 1em;
   padding-top: 70px;
+  max-width: 800px;
   text-align: center;
 }
 
