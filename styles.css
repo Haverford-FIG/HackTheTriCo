@@ -2,28 +2,32 @@
  * Hack the TriCo 2016
  */
 
+
 /* NAVIGATION*/
+
 ul {
   list-style-type: none;
-  position: fixed;
-  top: 0;
   width: 100%;
+  background-color: #363636;
   margin: 0;
   padding: 0;
-  background-color: #363636;
+  position: fixed;
+  text-align: center;
+  overflow: hidden;
 }
 
 li {
-  float: left;
+  display: inline;
+  float: center;
 }
 
 li a {
-  display: block;
-  background-color: #363636;
+  display: inline-block;
   color: #F6F6F6;
-  padding: 14px 102px;
-  text-align: center;
   text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 18%;
 }
 
 li a:hover {
@@ -61,12 +65,8 @@ a.button:focus {
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 125vh;
   justify-content: center;
-}
-
-.banner_image {
-  width: auto\9;
 }
 
 .banner_text {
@@ -96,10 +96,10 @@ a.button:focus {
   background-color: #00CECB;
   color: #F7F7F7;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   justify-content: center;
-  padding: 90px;
   text-align: center;
+  padding: 40px;
 }
 
 .about_title {
@@ -118,15 +118,20 @@ a.button:focus {
   max-width: 800px;
   margin-top: 40px;
   text-align: justify;
+  line-height: 38px;
 }
 
 /* SCHEDULE */
 .schedule_background {
+  display: flex;
+  flex-direction: column;  
   align-content: center;
   background-color: #FF5E5B;
   color: #F7F7F7;
+  justify-content: center;
   margin: 0 auto;
-  padding: 90px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
 }
 
@@ -135,36 +140,33 @@ a.button:focus {
   font-size: 5em;
   font-weight: 700;
   line-height: 1em;
-  padding-top: 70px;
   text-align: center;
 }
 
 .schedule_text {
-  text-align: center;
+   font-size: 24px;
+   font-weight: 300;
+   margin-top: 40px;
+   flex: 1;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
 /* FAQ */
 .faq_background {
-  align-items: center;
   background-color: #F0F0F0;
-  flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
-  padding: 90px;
-  text-align: center;
 }
 
 .faq_question_answer_container {
-  align-content: center;
-  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 2000px;
 }
-
-
 
 .faq_title {
   color: #1E1E1E;
@@ -172,37 +174,47 @@ a.button:focus {
   font-size: 5em;
   font-weight: 700;
   line-height: 55px;
-  padding-bottom: 30px;
+  padding-top: 90px;
+  padding-bottom: 60px;
   text-align: center;
   width: 100%;
 }
 
 .faq_question_answer {
-  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 30px;
   text-align: justify;
-  width: 400px;
+  width: 450px;
 }
 
 .faq_question {
   color: #1E1E1E;
   font-size: 24px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 38px;
   text-align: center;
 }
 
 .faq_answer{
+  padding-top: 20px;
   color: #1E1E1E;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 38px;
 }
 
 .faq_answer a {
   color: #1E1E1E;
 }
+
+.faq_answer a:hover {
+  color:#FF5E5B;
+}
+
+.faq_last {
+  padding-bottom: 90px;
+  }
 
 .footer {
   padding: 10px 0;
@@ -216,6 +228,8 @@ a.button:focus {
 /* SPONSORS */
 .sponsor_background {
   padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #F6F6F6;
 }
 
 .sponsor_title {
@@ -237,4 +251,124 @@ a.button:focus {
 
 .sponsor_caption a {
   color: #1E1E1E;
+}
+
+.sponsor_caption a:hover {
+  color:#FF5E5B;
+}
+
+
+/* smaller screen */
+@media screen and (max-width : 730px) {
+  .about_title {
+  font-size: 3em;
+  }
+
+.schedule_title {
+  font-size: 4em;
+  }
+
+.faq_title {
+  font-size: 4em;
+  }  
+
+.sponsor_title {
+  font-size: 4em;
+  }
+
+.about_text {
+  font-size: 20px;
+  }
+
+.faq_question_answer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  height: auto;
+}
+
+.faq_question_answer {
+  width: 60%;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+.faq_question {
+  font-size: 20px;
+  }
+
+.faq_answer {
+  font-size: 18px;
+  }
+}
+
+/* for mobile */
+@media screen and (max-width : 480px)  {
+  .banner_background {
+  height: 700px;
+  }
+  ul {
+  width: 100%;
+  position: relative;
+  }
+
+  li {
+  display: block;
+  }
+
+  li a {
+  width: 100%;
+  }
+
+.about_title {
+  font-size: 3em;
+  }
+
+.schedule_title {
+  font-size: 3em;
+  }
+
+.faq_title {
+  font-size: 4em;
+  }  
+
+.sponsor_title {
+  font-size: 3em;
+  }
+
+.about_text {
+  font-size: 18px;
+  }
+
+.faq_question {
+  font-size: 18px;
+  }
+
+.faq_answer {
+  font-size: 16px;
+  }
+  
+.faq_question_answer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  height: auto;
+}
+
+.faq_question_answer {
+  text-align: justify;
+  width: 80%;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #00CECB;
 }
