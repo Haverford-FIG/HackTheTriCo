@@ -165,7 +165,7 @@ a.button:focus {
   flex-flow: column wrap;
   padding-left: 100px;
   padding-right: 100px;
-  height: 2000px;
+  height: 1500px;
 }
 
 .faq_title {
