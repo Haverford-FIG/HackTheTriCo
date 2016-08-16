@@ -61,6 +61,7 @@ a.button:focus {
 }
 
 .banner_background{
+  padding-top: 50px;
   align-items: center;
   background-color: #F6F6F6;
   display: flex;
@@ -156,6 +157,8 @@ a.button:focus {
 .faq_background {
   background-color: #F0F0F0;
   margin: 0 auto;
+  padding-top: 110px;
+  padding-bottom: 20px;
 }
 
 .faq_question_answer_container {
@@ -165,7 +168,7 @@ a.button:focus {
   flex-flow: column wrap;
   padding-left: 100px;
   padding-right: 100px;
-  height: 1500px;
+  height: 1450px;
 }
 
 .faq_title {
@@ -174,8 +177,6 @@ a.button:focus {
   font-size: 5em;
   font-weight: 700;
   line-height: 55px;
-  padding-top: 90px;
-  padding-bottom: 60px;
   text-align: center;
   width: 100%;
 }
@@ -308,7 +309,9 @@ a.button:focus {
 @media screen and (max-width : 480px)  {
   .banner_background {
   height: 700px;
+  padding-top: 0px;
   }
+
   ul {
   width: 100%;
   position: relative;
@@ -321,6 +324,24 @@ a.button:focus {
   li a {
   width: 100%;
   }
+
+.about_background {
+  padding-top: 60px;
+}
+
+.schedule_background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.faq_background {
+  padding-top: 60px;
+}
+
+.sponsor_background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .about_title {
   font-size: 3em;
@@ -355,7 +376,7 @@ a.button:focus {
   flex-direction: column;
   padding: 0;
   align-items: center;
-  height: auto;
+  height: 2985px;
 }
 
 .faq_question_answer {
