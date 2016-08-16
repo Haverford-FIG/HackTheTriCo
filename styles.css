@@ -153,22 +153,18 @@ a.button:focus {
 
 /* FAQ */
 .faq_background {
-  align-items: center;
   background-color: #F0F0F0;
-  flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
-  text-align: center;
 }
 
 .faq_question_answer_container {
-  align-content: center;
-  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 980px;
 }
 
 .faq_title {
@@ -283,6 +279,14 @@ a.button:focus {
   font-size: 20px;
   }
 
+.faq_question_answer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  height: auto;
+}
+
 .faq_question_answer {
   width: 60%;
   padding-bottom: 30px;
@@ -345,6 +349,14 @@ a.button:focus {
   font-size: 16px;
   }
   
+.faq_question_answer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  height: auto;
+}
+
 .faq_question_answer {
   text-align: justify;
   width: 80%;
