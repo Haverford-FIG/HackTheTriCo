@@ -336,6 +336,8 @@ a.button:focus {
 
 .faq_background {
   padding-top: 60px;
+  padding-botton: 0px;
+}
 }
 
 .sponsor_background {
